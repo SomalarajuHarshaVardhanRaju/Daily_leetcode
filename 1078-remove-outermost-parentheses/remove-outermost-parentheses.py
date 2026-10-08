@@ -7,9 +7,7 @@ class Solution:
             if ch == '(':
                 if depth > 0:
                     result.append(ch)
-
                 depth += 1
-
             else:
                 depth -= 1
 
