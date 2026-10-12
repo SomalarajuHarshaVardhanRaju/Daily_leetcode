@@ -6,7 +6,6 @@ class Solution:
             for b in range(32):
                 if num & (1 << b):
                     bit_count[b] += 1
-
         ans = 0
         for _ in range(k):
             num = 0
